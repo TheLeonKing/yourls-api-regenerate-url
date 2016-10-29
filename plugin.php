@@ -2,11 +2,11 @@
     
     /*
      Plugin Name: Regenerate Shortened URL
-     Plugin URI: https://github.com/theleonking
+     Plugin URI: https://github.com/TheLeonKing/yourls-api-regenerate-url
      Description: Adds a custom API action 'regenerate_url' to generate a new keyword for a URL that has already been shortened.
      Version: 0.1
      Author: The Leon King
-     Author URI: https://github.com/theleonking
+     Author URI: https://github.com/TheLeonKing/
     */
     
     yourls_add_filter( 'api_action_regenerate_url', 'api_regenerate_url' );
